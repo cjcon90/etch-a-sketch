@@ -1,0 +1,11 @@
+.etch__screen {
+  background-color: $color-bg;
+  display: inline-grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  width: 75%;
+  height: 75%;
+  border: 0.3rem outset black;
+  border-radius: 0.3rem;
+  @include absCenter;
+}

@@ -1,0 +1,39 @@
+.etch {
+  &__buttons {
+    position: absolute;
+    bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-evenly;
+    width: 100%;
+  }
+  &__btn {
+    display: inline-block;
+    background-color: $color-bg;
+    height: 7rem;
+    margin: 0 2rem;
+    width: 17.5rem;
+    border: 1px solid black;
+    border-radius: 5rem;
+    box-shadow: 0 0.1rem 0.1rem black;
+    transition: all 0.1s;
+
+    &:hover {
+      transform: scale(1.02) translateY(-0.15rem);
+      box-shadow: 0 0.1rem 1rem rgb(100, 0, 0);
+    }
+
+    &:active {
+      transform: scale(1) translateY(0);
+    }
+
+    &--text {
+      position: relative;
+      font-size: 3rem;
+      font-family: "Galada", cursive;
+      text-align: center;
+      bottom: 1.5rem;
+    }
+  }
+}

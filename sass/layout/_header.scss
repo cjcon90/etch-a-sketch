@@ -1,0 +1,19 @@
+.header {
+  display: block;
+
+  &__heading {
+    color: $color-main;
+    background-color: rgba($color-bg, 0.2);
+    width: 100%;
+    border-radius: 5rem;
+    @include absCenter;
+    top: 0;
+    padding-top: 7.5rem;
+    text-shadow: 0.5rem 0.3rem 0rem black;
+    font-family: "Yellowtail", cursive;
+    text-align: center;
+    font-size: 9rem;
+    letter-spacing: 2rem;
+    margin: 2rem 0;
+  }
+}

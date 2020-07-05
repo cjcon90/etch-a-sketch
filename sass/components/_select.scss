@@ -1,0 +1,29 @@
+.etch {
+  position: relative;
+  @include customRange;
+
+  &__select {
+    position: absolute;
+    top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    left: 10%;
+    transition: all 0.3s;
+
+    &--label {
+      padding-right: 6rem;
+      font-size: 4rem;
+      font-family: "Galada", cursive;
+    }
+
+    &--size {
+      background-color: $color-main;
+      direction: rtl;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

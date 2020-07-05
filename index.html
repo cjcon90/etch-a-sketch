@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Galada&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Etch-a-sketch</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 class="header__heading">
+          Etch-a-sketch
+        </h1>
+      </div>
+    </header>
+    <main>
+      <div class="etch">
+        <div class="etch__body">
+          <div class="etch__select">
+            <label for="size" class="etch__select--label etch__select--label"
+              >Etch Size Adjuster:
+            </label>
+            <input
+              type="range"
+              id="size"
+              name="size"
+              class="etch__select--size"
+              min="16"
+              max="128"
+            />
+          </div>
+
+          <div class="etch__screen">&nbsp;</div>
+
+          <div class="etch__buttons">
+            <div class="etch__btn etch__btn--reset">
+              <p class="etch__btn--text etch__btn--reset-text">
+                RESET
+              </p>
+            </div>
+            <div class="etch__btn etch__btn--color">
+              <p class="etch__btn--text etch__btn--color-text">
+                COLOR
+              </p>
+            </div>
+            <div class="etch__btn etch__btn--black">
+              <p class="etch__btn--text etch__btn--black-text">
+                BLACK
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

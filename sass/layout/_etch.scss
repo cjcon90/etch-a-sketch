@@ -1,0 +1,14 @@
+.etch {
+  position: relative;
+
+  &__body {
+    background-color: $color-main;
+    position: absolute;
+    @include absCenter;
+    top: 52rem;
+    width: 80rem;
+    height: 80rem;
+    border-radius: 5rem;
+    box-shadow: 0.5rem 0.5rem 3rem 0.5rem rgb(77, 77, 77);
+  }
+}

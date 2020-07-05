@@ -1,0 +1,22 @@
+{
+  "name": "etch-a-sketch",
+  "version": "1.0.0",
+  "description": "etch-a-sketch JS project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjcon90/etch-a-sketch.git"
+  },
+  "author": "Ciaran Concannon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjcon90/etch-a-sketch/issues"
+  },
+  "homepage": "https://github.com/cjcon90/etch-a-sketch#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
